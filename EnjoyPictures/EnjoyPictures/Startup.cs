@@ -1,5 +1,6 @@
 ﻿using Microsoft.Owin;
 using Owin;
+using System;
 
 [assembly: OwinStartupAttribute(typeof(EnjoyPictures.Startup))]
 namespace EnjoyPictures
@@ -9,6 +10,7 @@ namespace EnjoyPictures
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
+            Console.Write("HELLO LITTLE SHIT");
         }
     }
 }
