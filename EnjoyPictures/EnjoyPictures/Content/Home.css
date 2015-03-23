@@ -1,0 +1,10 @@
+﻿/*.container-fluid {
+    padding: 20px;
+}*/
+
+.item {
+    /*padding: 15px 15px 0;*/
+    float: left;
+    width: 20%;
+    /*border: 1px solid #ccc;*/
+}

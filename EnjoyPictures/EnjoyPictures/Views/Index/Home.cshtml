@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pictures Home Page</title>
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/masonry.pkgd.min.js"></script>
+    <script src="~/Scripts/masonry.pkgd.js"></script>
+    <script type="text/javascript">
+        //var flag = true;
+        //$(function () {
+        //    var $container = $('#container');
+        //    $container.masonry({
+        //        singleMode: true,
+        //        animate: true,
+        //        itemSelector: '.item'
+        //    });
+
+        //    $(window).scroll(function () {
+        //        if ($(document).height() - $(this).scrollTop() - $(this).height() < 50) {
+        //            if (flag) {
+        //                var $boxes = $(getList());
+        //                $container.append($boxes).masonry('appended', $boxes);
+        //            }
+        //        }
+        //    });
+        //});
+        //function getList() {
+        //    var boxes = [], count = parseInt(Math.random() * 10);
+        //    for (var i = 0; i < count; i++) {
+        //        boxes.push('<div class="post"><a href="#"><img src="images/'
+        //            + (i + 1) + '.jpg" width="280" alt="" /></a><a href="#" target="_blank">图片' + (i + 1) + '</a></div>');
+        //    }
+        //    return boxes.join("");
+        //}
+
+        $(function () {
+            var $container = $('#container');
+            $container.imagesLoaded(function () {
+                $(this).isotope({
+                    itemSelector: '.item'
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="container" class="container-fluid">
+        <div class="item"><img src="http://www.inwebson.com/demo/blocksit-js/demo2/images/img27.jpg" /></div>
+        <div class="item"><img src="http://www.inwebson.com/demo/blocksit-js/demo2/images/img26.jpg" /></div>
+        <div class="item"><img src="http://www.inwebson.com/demo/blocksit-js/demo2/images/img15.jpg" /></div>
+        <div class="item"><img src="http://www.inwebson.com/demo/blocksit-js/demo2/images/img23.jpg" /></div>
+        <div class="item"><img src="http://www.inwebson.com/demo/blocksit-js/demo2/images/img17.jpg" /></div>
+    </div>
+</body>
+</html>
+

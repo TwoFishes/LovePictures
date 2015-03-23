@@ -170,11 +170,27 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Home.css" />
     <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\picture1.jpg" />
+    <Content Include="Images\picture10.jpg" />
+    <Content Include="Images\picture11.jpg" />
+    <Content Include="Images\picture12.jpg" />
+    <Content Include="Images\picture13.jpg" />
+    <Content Include="Images\picture14.jpg" />
+    <Content Include="Images\picture15.jpg" />
+    <Content Include="Images\picture2.jpg" />
+    <Content Include="Images\picture3.jpg" />
+    <Content Include="Images\picture4.jpg" />
+    <Content Include="Images\picture5.jpg" />
+    <Content Include="Images\picture6.jpg" />
+    <Content Include="Images\picture7.jpg" />
+    <Content Include="Images\picture8.jpg" />
+    <Content Include="Images\picture9.jpg" />
     <Content Include="Scripts\blocksit.js" />
     <Content Include="Scripts\blocksit.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -187,6 +203,8 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\masonry.pkgd.js" />
+    <Content Include="Scripts\masonry.pkgd.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -202,6 +220,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Index\Index.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Index\Home.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
